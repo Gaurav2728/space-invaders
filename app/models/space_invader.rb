@@ -14,6 +14,6 @@ class SpaceInvader
 
   # Invader image width
   def width
-    invaders_image.empty? ? 0 : image.first.size
+    invaders_image.empty? ? 0 : invaders_image.first.size
   end
 end
